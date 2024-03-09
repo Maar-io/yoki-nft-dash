@@ -1,4 +1,5 @@
 .App {
+  background-color: #282c34;
   text-align: center;
 }
 
@@ -13,13 +14,23 @@
   }
 }
 
-.App-header {
+body {
+  background-color: #282c34;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +46,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nft-table-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.MuiTable-root {
+  background-color: #282c34;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); /* This adds a shadow around the table */
+}
+
+.MuiTableCell-root,
+.MuiTableCell-body,
+.MuiTableCell-head {
+  background-color: #47587b !important;
+  color: white !important; /* This makes the text white */
 }
