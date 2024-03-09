@@ -38,5 +38,35 @@
       "slug": "train?machine=jr-kyushu-813",
       "totalSupply": 560,
       "team": "BeyondClub"
+    },
+    {
+      "name": "Onigiriman",
+      "nftimage": "onigiriman.png",
+      "supply": 20000,
+      "price": 0.015,
+      "contract": "0x0CFd649E37882944342Ec0f8A2ac8ABca01f6934",
+      "slug": "train?machine=onigiriman",
+      "totalSupply": 0,
+      "team": "Mooon"
+    },
+    {
+      "name": "Sashimi",
+      "nftimage": "sashimi.png",
+      "supply": 20000,
+      "price": 0.015,
+      "contract": "0x682cD0890C9c3aC423D534a50a96E9C6EF9983D2",
+      "slug": "train?machine=sashimi",
+      "totalSupply": 0,
+      "team": "Mooon"
+    },
+    {
+      "name": "UZNo",
+      "nftimage": "uzno.jpg",
+      "supply": 40000,
+      "price": 0.001,
+      "contract": "0xC384342Ad561B6791F4E38dE7A5e8b7747Bca5eE",
+      "slug": "train?machine=uzno",
+      "totalSupply": 0,
+      "team": "Mooon"
     }
   ]
