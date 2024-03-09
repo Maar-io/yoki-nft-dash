@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import FetchNfts from './Components/FetchNfts';
-import Summary from './Components/Summary';
+import YokiSum from './Components/YokiSum';
+import PartnerNftsContext from './Components/PartnerNftsContext';
 
 function App() {
+  const [partnerNfts, setPartnerNfts] = useState(null);
+
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Yoki Origins NFT dashboard
-        </p>
-      </header>
-      <Summary />
-
-      <div className="nft-table-container">
-        <FetchNfts />
+    <>
+      <div className="App">
+        <header className="App-header">
+          <p>
+            Yoki Origins NFT dashboard
+          </p>
+        </header>
+        <PartnerNftsContext.Provider value={{ partnerNfts, setPartnerNfts }}>
+          <YokiSum />
+          <FetchNfts />
+        </PartnerNftsContext.Provider >
       </div>
-    </div>
+    </>
   );
 }
 
