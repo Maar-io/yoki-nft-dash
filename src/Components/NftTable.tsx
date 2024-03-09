@@ -32,9 +32,9 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                             key={row.name}
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
-                            <TableCell component="th" scope="row">
-                                {row.nftimage}
-                            </TableCell>
+<TableCell component="th" scope="row">
+  <img src={`/images/${row.nftimage}`} alt={row.nftimage} style={{width: '100px', height: '100px'}} />
+</TableCell>
                             <TableCell align="right">{row.name}</TableCell>
                             <TableCell align="right">{row.minted} ({row.supply})</TableCell>
                             <TableCell align="right">{row.price}</TableCell>

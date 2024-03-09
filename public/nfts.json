@@ -1,18 +1,42 @@
 [
     {
       "name": "Japan Creator Collection",
-      "nftimage": "image",
+      "nftimage": "creators.png",
       "supply": 50000,
       "price": 0,
       "contract": "0xAd61e3700A9ABa6dC5B986Ec39604167db33Fe09",
-      "team": "Mooon"
+      "team": "Mooon",
+      "totalSupply": 0,
+      "slug": "forest?machine=japan-creator-collection"
+    },
+    {
+      "name": "JAL Kokyo (Origami)",
+      "nftimage": "kokyo.png",
+      "supply": 3000,
+      "price": 0,
+      "contract": "0xD524DD5ca9272BEE145c6577910448421e1F5e69",
+      "slug": "train?machine=jal",
+      "totalSupply": 0,
+      "team": "BeyondClub"
     },
     {
       "name": "JR Kyushu 800",
-      "nftimage": "image",
-      "supply": 3000,
-      "price": 0.001,
+      "nftimage": "kyushu800.png",
+      "supply": 5000,
+      "price": 0.003,
       "contract": "0xDE782Cc4bf15Df5791261C126da1942BA8d805c4",
+      "team": "BeyondClub",
+      "totalSupply": 0,
+      "slug": "train?machine=jr-kyushu-800"
+    },
+    {
+      "name": "JR Kyushu 813",
+      "nftimage": "kyushu813.webp",
+      "supply": 15000,
+      "price": 0,
+      "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
+      "slug": "train?machine=jr-kyushu-813",
+      "totalSupply": 560,
       "team": "BeyondClub"
     }
   ]

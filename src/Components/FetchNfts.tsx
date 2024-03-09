@@ -19,19 +19,27 @@ const FetchNfts: React.FC = () => {
       .then(response => response.json())
       .then(async data => {
         const updatedData = await Promise.all(data.map(async (item: NftData) => {
-          const contract = new ethers.Contract(item.contract, contractABI, provider);
-          const minted = await contract.totalSupply();
-          return { ...item, minted: minted.toNumber() };
-        }));
-        setRows(updatedData);
-      });
+          if (item.totalSupply === 0) {
+            
+            const contract = new ethers.Contract(item.contract, contractABI, provider);
+            const minted = await contract.totalSupply();
+            return { ...item, minted: minted.toNumber() };
+          }
+          else {
+            // needed because of a bug in Kyushu contract which does not have totalSupply()
+            return { ...item, minted: item.totalSupply };
+          }
+
+  }));
+  setRows(updatedData);
+});
   }, []);
 
-  return (
-    <div className="nft-table-container">
-      <NftTable data={rows} />
-    </div>
-  );
+return (
+  <div className="nft-table-container">
+    <NftTable data={rows} />
+  </div>
+);
 };
 
 export default FetchNfts;
