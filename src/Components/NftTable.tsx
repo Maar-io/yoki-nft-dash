@@ -17,11 +17,10 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>NFT Image</TableCell>
-                        <TableCell align="right">Name</TableCell>
+                        <TableCell></TableCell>
+                        <TableCell align="left">Collection</TableCell>
                         <TableCell align="right">Minted</TableCell>
                         <TableCell align="right">Price (ETH)</TableCell>
-                        <TableCell align="right">Income</TableCell>
                         <TableCell align="right">Contract</TableCell>
                         <TableCell align="right">Developer</TableCell>
                     </TableRow>
@@ -33,15 +32,15 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
                             <TableCell component="th" scope="row">
-                                <img src={`/images/${row.nftimage}`} alt={row.nftimage} style={{ width: '100px', height: '100px' }} />
+                                <img className="nft-image" src={`/images/${row.nftimage}`} alt={row.nftimage} style={{ width: '100px', height: '100px' }} />
                             </TableCell>
-                            <TableCell align="left">{row.name}</TableCell>
+
+                            <TableCell className="japanese-cell" align="left">{row.name}</TableCell>
                             <TableCell align="right">{row.minted} ({row.supply})</TableCell>
                             <TableCell align="right">{row.price}</TableCell>
-                            <TableCell align="right">{row.income}</TableCell>
                             <TableCell align="right">
-                                <a href={`https://astar-zkevm.explorer.startale.com/address/${row.contract}`} target="_blank" rel="noopener noreferrer">
-                                    {row.contract.substring(0, 6)}
+                                <a href={`https://astar-zkevm.explorer.startale.com/address/${row.contract}`} target="_blank" rel="noopener noreferrer" style={{ color: 'yellow' }}>
+                                    {row.contract.substring(0, 6)}...
                                 </a>
                             </TableCell>                            <TableCell align="right">{row.team}</TableCell>
                         </TableRow>
