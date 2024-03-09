@@ -19,19 +19,21 @@
 
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;  background-image: url('./background.webp');
+  margin: 0 !important;
+  padding: 0 !important;  
+  background-image: url('./background.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .App-header {
   background-color: transparent;
-
   min-height: 1vh;
   font-size: calc(14px + 2vmin);
   font-family: 'Londrina Solid', cursive;
   color: white;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .App-link {
