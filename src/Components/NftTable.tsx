@@ -10,7 +10,7 @@ import { NftData } from './types';
 
 type NftTableProps = {
     data: NftData[];
-  };
+};
 const NftTable: React.FC<NftTableProps> = ({ data }) => {
     return (
         <TableContainer component={Paper}>
@@ -19,12 +19,11 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                     <TableRow>
                         <TableCell>NFT Image</TableCell>
                         <TableCell align="right">Name</TableCell>
-                        <TableCell align="right">Supply</TableCell>
                         <TableCell align="right">Minted</TableCell>
-                        <TableCell align="right">Price</TableCell>
+                        <TableCell align="right">Price (ETH)</TableCell>
                         <TableCell align="right">Income</TableCell>
                         <TableCell align="right">Contract</TableCell>
-                        <TableCell align="right">Dev team</TableCell>
+                        <TableCell align="right">Developer</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -37,12 +36,14 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                                 {row.nftimage}
                             </TableCell>
                             <TableCell align="right">{row.name}</TableCell>
-                            <TableCell align="right">{row.supply}</TableCell>
-                            <TableCell align="right">{row.minted}</TableCell>
+                            <TableCell align="right">{row.minted} ({row.supply})</TableCell>
                             <TableCell align="right">{row.price}</TableCell>
                             <TableCell align="right">{row.income}</TableCell>
-                            <TableCell align="right">{row.contract}</TableCell>
-                            <TableCell align="right">{row.team}</TableCell>
+                            <TableCell align="right">
+                                <a href={`https://astar-zkevm.explorer.startale.com/address/${row.contract}`} target="_blank" rel="noopener noreferrer">
+                                    {row.contract.substring(0, 6)}
+                                </a>
+                            </TableCell>                            <TableCell align="right">{row.team}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

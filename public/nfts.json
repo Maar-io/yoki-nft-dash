@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Japan Creator Collection",
+      "nftimage": "image",
+      "supply": 50000,
+      "price": 0,
+      "contract": "0xAd61e3700A9ABa6dC5B986Ec39604167db33Fe09",
+      "team": "Mooon"
+    },
+    {
+      "name": "JR Kyushu 800",
+      "nftimage": "image",
+      "supply": 3000,
+      "price": 0.001,
+      "contract": "0xDE782Cc4bf15Df5791261C126da1942BA8d805c4",
+      "team": "BeyondClub"
+    }
+  ]
