@@ -25,18 +25,7 @@ html, body {
   background-size: cover;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
 .App-header {
-  /* background-color: #282c34; */
   background-color: transparent;
 
   min-height: 1vh;
@@ -66,7 +55,7 @@ html, body {
 
 .MuiTable-root {
   background-color: transparent;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); /* This adds a shadow around the table */
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); 
 }
 .MuiPaper-root {
   background-color: transparent !important;
@@ -76,7 +65,6 @@ html, body {
 .MuiTableCell-body,
 .MuiTableCell-head {
   background-color: rgba(40, 44, 52, 0.8); 
-  /* background-color: transparent !important; */
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     color: white !important; 
   font-family: 'Londrina' !important ;
@@ -92,4 +80,21 @@ html, body {
 
 .japanese-cell {
   font-family: 'Kaushan Script' !important;
+}
+
+.card {
+  min-width: 275px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(40, 44, 52, 0.8);
+  transition: 0.3s;
+  background-color: rgba(130, 214, 65, 0.5) !important; 
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(202, 161, 161, 0.2);
+}
+
+.card-content {
+  padding: 16px;
 }
