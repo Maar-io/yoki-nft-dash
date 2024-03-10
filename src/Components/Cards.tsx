@@ -3,23 +3,26 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { CardsProps } from './types';
+import Grid from '@mui/material/Grid';
 
 const Cards: React.FC<CardsProps> = ({ data }) => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+    <Grid container spacing={2} justifyContent="center">
       {data.map((item, index) => (
-        <Card key={index} className="card">
-          <CardContent className="card-content">
-            <Typography variant="h5" component="div">
-              {item.title}
-            </Typography>
-            <Typography variant="h4">
-              {item.value}
-            </Typography>
-          </CardContent>
-        </Card>
+        <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+          <Card className="card">
+            <CardContent className="card-content">
+              <Typography variant="h5" component="div">
+                {item.title}
+              </Typography>
+              <Typography variant="h4">
+                {item.value}
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
       ))}
-    </div>
+    </Grid>
   );
 };
 

@@ -11,6 +11,7 @@ import { NftData } from './types';
 type NftTableProps = {
     data: NftData[];
 };
+
 const NftTable: React.FC<NftTableProps> = ({ data }) => {
     return (
         <TableContainer component={Paper}>
@@ -18,11 +19,11 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                 <TableHead>
                     <TableRow>
                         <TableCell></TableCell>
-                        <TableCell align="left">Collection</TableCell>
+                        <TableCell className="narrow-on-mobile" align="left">Collection</TableCell>
                         <TableCell align="right">Minted</TableCell>
-                        <TableCell align="right">Price (ETH)</TableCell>
-                        <TableCell align="right">Contract</TableCell>
-                        <TableCell align="right">Developer</TableCell>
+                        <TableCell className="hide-on-mobile" align="right">Price (ETH)</TableCell>
+                        <TableCell className="hide-on-mobile" align="right">Contract</TableCell>
+                        <TableCell className="hide-on-mobile" align="right">Developer</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -34,15 +35,15 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                             <TableCell component="th" scope="row">
                                 <img className="nft-image" src={`/images/${row.nftimage}`} alt={row.nftimage} style={{ width: '100px', height: '100px' }} />
                             </TableCell>
-
                             <TableCell className="japanese-cell" align="left">{row.name}</TableCell>
                             <TableCell align="right">{row.minted} ({row.supply})</TableCell>
-                            <TableCell align="right">{row.price}</TableCell>
-                            <TableCell align="right">
+                            <TableCell className="hide-on-mobile" align="right">{row.price}</TableCell>
+                            <TableCell className="hide-on-mobile" align="right">
                                 <a href={`https://astar-zkevm.explorer.startale.com/address/${row.contract}`} target="_blank" rel="noopener noreferrer" style={{ color: 'yellow' }}>
                                     {row.contract.substring(0, 6)}...
                                 </a>
-                            </TableCell>                            <TableCell align="right">{row.team}</TableCell>
+                            </TableCell>
+                            <TableCell className="hide-on-mobile" align="right">{row.team}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
