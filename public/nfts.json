@@ -15,7 +15,7 @@
       "supply": 3000,
       "price": 0,
       "contract": "0xD524DD5ca9272BEE145c6577910448421e1F5e69",
-      "slug": "train?machine=jal",
+      "slug": "town?machine=jal",
       "totalSupply": 0,
       "team": "BeyondClub"
     },
@@ -36,7 +36,7 @@
       "price": 0,
       "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
       "slug": "train?machine=jr-kyushu-813",
-      "totalSupply": 560,
+      "totalSupply": 950,
       "team": "BeyondClub"
     },
     {
@@ -55,7 +55,7 @@
       "supply": 20000,
       "price": 0.015,
       "contract": "0x682cD0890C9c3aC423D534a50a96E9C6EF9983D2",
-      "slug": "train?machine=sashimi",
+      "slug": "city?machine=sashimi",
       "totalSupply": 0,
       "team": "Mooon"
     },
@@ -63,9 +63,9 @@
       "name": "UZNo",
       "nftimage": "uzno.jpg",
       "supply": 40000,
-      "price": 0.001,
+      "price": 0.002,
       "contract": "0xC384342Ad561B6791F4E38dE7A5e8b7747Bca5eE",
-      "slug": "train?machine=uzno",
+      "slug": "castle?machine=uzno",
       "totalSupply": 0,
       "team": "Mooon"
     }

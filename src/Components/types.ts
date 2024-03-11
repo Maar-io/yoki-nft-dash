@@ -21,3 +21,5 @@ interface CardData {
 export interface CardsProps {
   data: CardData[];
 }
+
+export const yoportLink = 'https://yoki.astar.network/en/floors/';

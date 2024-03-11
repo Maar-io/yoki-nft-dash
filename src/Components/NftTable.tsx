@@ -6,7 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { NftData } from './types';
+import { NftData, yoportLink } from './types';
 
 type NftTableProps = {
     data: NftData[];
@@ -35,7 +35,13 @@ const NftTable: React.FC<NftTableProps> = ({ data }) => {
                             <TableCell component="th" scope="row">
                                 <img className="nft-image" src={`/images/${row.nftimage}`} alt={row.nftimage} style={{ width: '100px', height: '100px' }} />
                             </TableCell>
-                            <TableCell className="japanese-cell" align="left">{row.name}</TableCell>
+                            <TableCell className="japanese-cell" align="left">
+                            <a href={`${yoportLink}${row.slug}`} target="_blank" rel="noopener noreferrer" style={{ color: 'yellow' }}>
+
+                                {row.name}
+                                </a>
+
+                            </TableCell>
                             <TableCell align="right">{row.minted} ({row.supply})</TableCell>
                             <TableCell className="hide-on-mobile" align="right">{row.price}</TableCell>
                             <TableCell className="hide-on-mobile" align="right">
