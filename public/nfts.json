@@ -1,5 +1,15 @@
 [
   {
+    "name": "Candy Girl",
+    "nftimage": "candy.png",
+    "supply": 100000,
+    "price": 0,
+    "contract": "0xe3A4dBF34e21C7D24F86ef032A3E3beC39220B86",
+    "slug": "countryside?machine=candy_girl",
+    "totalSupply": 0,
+    "team": "BeyondClub"
+  },
+  {
     "name": "Onigiriman",
     "nftimage": "onigiriman.png",
     "supply": 20000,
@@ -66,7 +76,7 @@
     "price": 0,
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
-    "totalSupply": 950,
+    "totalSupply": 1461,
     "team": "BeyondClub"
   }
 ]
