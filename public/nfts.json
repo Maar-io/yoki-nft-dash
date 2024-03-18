@@ -4,7 +4,7 @@
     "nftimage": "hiki.jpg",
     "supply": 8888,
     "price": 0,
-    "contract": "0xe3A4dBF34e21C7D24F86ef032A3E3beC39220B86",
+    "contract": "0xaa7fbB96A1397898495e07Afc022C341510fA24f",
     "slug": "forest?machine=hikikomoriz",
     "totalSupply": 0,
     "team": "Hiki"
@@ -17,7 +17,7 @@
     "contract": "0xDf7e66C667D94Eb74d14191A0Fc78a8a89025ED5",
     "slug": "countryside?machine=rarible",
     "totalSupply": 0,
-    "team": "BeyondClub"
+    "team": "Rarible"
   },
   {
     "name": "Candy Girl",
