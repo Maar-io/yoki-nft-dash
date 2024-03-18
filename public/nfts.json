@@ -1,5 +1,25 @@
 [
   {
+    "name": "Hikikomoriz",
+    "nftimage": "hiki.jpg",
+    "supply": 8888,
+    "price": 0,
+    "contract": "0xe3A4dBF34e21C7D24F86ef032A3E3beC39220B86",
+    "slug": "forest?machine=hikikomoriz",
+    "totalSupply": 0,
+    "team": "Hiki"
+  },
+  {
+    "name": "Rarible",
+    "nftimage": "rarible.jpg",
+    "supply": 500000,
+    "price": 0.00069,
+    "contract": "0xDf7e66C667D94Eb74d14191A0Fc78a8a89025ED5",
+    "slug": "countryside?machine=rarible",
+    "totalSupply": 0,
+    "team": "BeyondClub"
+  },
+  {
     "name": "Candy Girl",
     "nftimage": "candy.png",
     "supply": 100000,
