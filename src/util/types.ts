@@ -23,3 +23,9 @@ export interface CardsProps {
 }
 
 export const yoportLink = 'https://yoki.astar.network/en/floors/';
+
+export type OmaStats = {
+  totalOMAs: number;
+  totalTxOver30: number;
+  totalResults: number;
+};
