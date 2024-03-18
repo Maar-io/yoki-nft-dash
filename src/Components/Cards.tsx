@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { CardsProps } from './types';
+import { CardsProps } from '../util/types';
 import Grid from '@mui/material/Grid';
 
 const Cards: React.FC<CardsProps> = ({ data }) => {
