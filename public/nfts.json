@@ -1,5 +1,25 @@
 [
   {
+    "name": "City Pop Tokyo",
+    "nftimage": "citypop.webp",
+    "supply": 10000,
+    "price": 0.00075,
+    "contract": "0x9D640D61FaFB620C6473eB87B5FD093a0392902B",
+    "slug": "city?machine=citypoptokyo",
+    "totalSupply": 0,
+    "team": "mooon"
+  },
+  {
+    "name": "DenDekaDen",
+    "nftimage": "ddd.webp",
+    "supply": 8888,
+    "price": 0,
+    "contract": "0x6d99156004e7DDD41b3CBF7E60A8AF2438609542",
+    "slug": "forest?machine=ddd",
+    "totalSupply": 0,
+    "team": "-"
+  },
+  {
     "name": "Hikikomoriz",
     "nftimage": "hiki.jpg",
     "supply": 8888,
@@ -96,7 +116,7 @@
     "price": 0,
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
-    "totalSupply": 1461,
+    "totalSupply": 2417,
     "team": "BeyondClub"
   }
 ]
