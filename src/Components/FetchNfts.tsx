@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import NftTable from './NftTable';
-import { NftData, yokiAddress, RPC } from '../util/types';
+import { NftData } from '../util/types';
+import { RPC } from '../util/const';
 import { ethers } from 'ethers';
 import PartnerNftsContext from './PartnerNftsContext';
 

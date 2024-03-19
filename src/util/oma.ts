@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 import { OmaStats } from './types';
-
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/68002/yoki-origins/version/latest';
+import { GRAPH_ENDPOINT } from './const';
 
 export const fetchOmaPage = async (skip: number, totalOMAs: number, totalTxOver30: number, totalResults: number): Promise<OmaStats> => {
   const response = await axios.post(GRAPH_ENDPOINT, {
@@ -13,8 +12,8 @@ export const fetchOmaPage = async (skip: number, totalOMAs: number, totalTxOver3
           skip: $skip,
           where: {
             and: [
-              {from_not: "0x0000000000000000000000000000000000000000"}, 
-              {to_not: "0x0000000000000000000000000000000000000000"}, 
+              {from_not: "0x0000000000000000000000000000000000000000"},
+              {to_not: "0x0000000000000000000000000000000000000000"},
               {Yokis_id: "0"}
             ]
           }
