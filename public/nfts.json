@@ -1,5 +1,15 @@
 [
   {
+    "name": "Kitsch Cats",
+    "nftimage": "kitsch_cats.jpg",
+    "supply": 30000,
+    "price": 0.00075,
+    "contract": "0x38d0C08E177a6ebb431181247cc0BE7Ac93744C8",
+    "slug": "forest?machine=kitsch-cats",
+    "totalSupply": 0,
+    "team": "DADAZ"
+  },
+  {
     "name": "City Pop Tokyo",
     "nftimage": "citypop.webp",
     "supply": 10000,
@@ -116,7 +126,7 @@
     "price": 0,
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
-    "totalSupply": 2417,
+    "totalSupply": 3424,
     "team": "BeyondClub"
   }
 ]
