@@ -1,5 +1,25 @@
 [
   {
+    "name": "Gotta Gacha Ball",
+    "nftimage": "nft_trader.webp",
+    "supply": 40000,
+    "price": 0.0001,
+    "contract": "0x709c6D8d82F01C25eA656BCC701ED862D39eb5a9",
+    "slug": "train?machine=nftTrader",
+    "totalSupply": 0,
+    "team": "NFT Trader"
+  },
+  {
+    "name": "DappRadar",
+    "nftimage": "dappradar.png",
+    "supply": 100000,
+    "price": 0,
+    "contract": "0xE555E256186270901c059939C3DEf301852BBaE9",
+    "slug": "city?machine=dappRadar",
+    "totalSupply": 0,
+    "team": "Mario"
+  },
+  {
     "name": "Kitsch Cats",
     "nftimage": "kitsch_cats.jpg",
     "supply": 30000,
