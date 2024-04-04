@@ -7,6 +7,7 @@ export type NftData = {
     income: number;
     contract: string;
     totalSupply: number;
+    totalSupply2: boolean;
     slug: string;
     team: string;
   };

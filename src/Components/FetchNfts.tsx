@@ -6,7 +6,8 @@ import { ethers } from 'ethers';
 import PartnerNftsContext from './PartnerNftsContext';
 
 const contractABI = [
-  "function totalSupply() view returns (uint256)"
+  "function totalSupply() view returns (uint256)",
+  "function totalSupplyForAllTokens() view returns (uint256)"
 ];
 
 const provider = new ethers.providers.JsonRpcProvider(RPC);
@@ -21,11 +22,18 @@ const FetchNfts: React.FC = () => {
       .then(response => response.json())
       .then(async data => {
         const updatedData = await Promise.all(data.map(async (item: NftData) => {
-          if (item.totalSupply === 0) {
+          if (item.totalSupply2) {
+            const contract = new ethers.Contract(item.contract, contractABI, provider);
+            const minted = await contract.totalSupplyForAllTokens();
+            partnerNftMinted += minted.toNumber();
+            return { ...item, minted: minted.toNumber() };
+          }
+          else if (item.totalSupply === 0) {
 
             const contract = new ethers.Contract(item.contract, contractABI, provider);
             const minted = await contract.totalSupply();
             partnerNftMinted += minted.toNumber();
+            setPartnerNfts(partnerNftMinted);
             return { ...item, minted: minted.toNumber() };
           }
           else {

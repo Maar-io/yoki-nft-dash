@@ -8,16 +8,29 @@
     "contract": "0x8Ade4c707630d2F3aB0e36cde5c81dA8F56fE0b6",
     "slug": "countryside?machine=mazda",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "mooon"
+  },
+  {
+    "name": "CLOSEPA",
+    "nftimage": "closepa.webp",
+    "supply": 200000,
+    "price": 0.0005,
+    "contract": "0x5866d39fdb241a171f29BfA6e340ADc68aA9f4aD",
+    "slug": "countryside?machine=closepa",
+    "totalSupply": 0,
+    "totalSupply2": true,
+    "team": "closepa"
   },
   {
     "name": "HIS",
     "nftimage": "his.webp",
-    "supply": 30000,
-    "price": 0,
+    "supply": 86000,
+    "price": 0.00065,
     "contract": "0x35e9f0E783140dad67e2A3502362805c7E65Ed69",
     "slug": "train?machine=his",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "vTuber"
   },  {
     "name": "Very Long Swap",
@@ -27,6 +40,7 @@
     "contract": "0x3fA0117f6d4b6945668B4cAA75d91Ff1bC6C7c2f",
     "slug": "train?machine=vls",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "VLS"
   },
   {
@@ -37,6 +51,7 @@
     "contract": "0xc7E252697c7F4c006d1741Dca87306EE14818397",
     "slug": "train?machine=l2x",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "L2X"
   },
     {
@@ -47,6 +62,7 @@
     "contract": "0x95F80fF50BF9e579a5C666934d3a7498d64190Af",
     "slug": "countryside?machine=quickswap",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Quickswap"
   },
   {
@@ -57,6 +73,7 @@
     "contract": "0x709c6D8d82F01C25eA656BCC701ED862D39eb5a9",
     "slug": "train?machine=nftTrader",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "NFT Trader"
   },
   {
@@ -67,6 +84,7 @@
     "contract": "0xE555E256186270901c059939C3DEf301852BBaE9",
     "slug": "city?machine=dappRadar",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Mario"
   },
   {
@@ -77,6 +95,7 @@
     "contract": "0x38d0C08E177a6ebb431181247cc0BE7Ac93744C8",
     "slug": "forest?machine=kitsch-cats",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "DADAZ"
   },
   {
@@ -87,6 +106,7 @@
     "contract": "0x9D640D61FaFB620C6473eB87B5FD093a0392902B",
     "slug": "city?machine=citypoptokyo",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "mooon"
   },
   {
@@ -97,6 +117,7 @@
     "contract": "0x6d99156004e7DDD41b3CBF7E60A8AF2438609542",
     "slug": "forest?machine=ddd",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "-"
   },
   {
@@ -107,6 +128,7 @@
     "contract": "0xaa7fbB96A1397898495e07Afc022C341510fA24f",
     "slug": "forest?machine=hikikomoriz",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Hiki"
   },
   {
@@ -117,6 +139,7 @@
     "contract": "0xDf7e66C667D94Eb74d14191A0Fc78a8a89025ED5",
     "slug": "countryside?machine=rarible",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Rarible"
   },
   {
@@ -127,6 +150,7 @@
     "contract": "0xe3A4dBF34e21C7D24F86ef032A3E3beC39220B86",
     "slug": "countryside?machine=candy_girl",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "BeyondClub"
   },
   {
@@ -137,6 +161,7 @@
     "contract": "0x0CFd649E37882944342Ec0f8A2ac8ABca01f6934",
     "slug": "train?machine=onigiriman",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Mooon"
   },
   {
@@ -147,6 +172,7 @@
     "contract": "0x682cD0890C9c3aC423D534a50a96E9C6EF9983D2",
     "slug": "city?machine=sashimi",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Mooon"
   },
   {
@@ -157,6 +183,7 @@
     "contract": "0xC384342Ad561B6791F4E38dE7A5e8b7747Bca5eE",
     "slug": "castle?machine=uzno",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "Mooon"
   },
   {
@@ -167,6 +194,7 @@
     "contract": "0xAd61e3700A9ABa6dC5B986Ec39604167db33Fe09",
     "team": "Mooon",
     "totalSupply": 0,
+    "totalSupply2": false,
     "slug": "forest?machine=japan-creator-collection"
   },
   {
@@ -177,6 +205,7 @@
     "contract": "0xD524DD5ca9272BEE145c6577910448421e1F5e69",
     "slug": "countryside?machine=jal",
     "totalSupply": 0,
+    "totalSupply2": false,
     "team": "BeyondClub"
   },
   {
@@ -187,6 +216,7 @@
     "contract": "0xDE782Cc4bf15Df5791261C126da1942BA8d805c4",
     "team": "BeyondClub",
     "totalSupply": 0,
+    "totalSupply2": false,
     "slug": "train?machine=jr-kyushu-800"
   },
   {
@@ -197,6 +227,7 @@
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
     "totalSupply": 4741,
+    "totalSupply2": false,
     "team": "BeyondClub"
   }
 ]
