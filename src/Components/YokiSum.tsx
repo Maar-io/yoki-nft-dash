@@ -22,25 +22,25 @@ const YokiSum: React.FC = () => {
   const [playerStats, setPlayerStats] = useState<PlayerStats>({ users: 0, players: 0 }); // new state variable
 
 
-  useEffect(() => {
-    fetchOmaPage(0, 0, 0, 0)
-      .then(data => {
-        setOmaStats(data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetchOmaPage(0, 0, 0, 0)
+  //     .then(data => {
+  //       setOmaStats(data);
+  //     })
+  //     .catch(error => {
+  //       console.error(error);
+  //     });
+  // }, []);
 
-  useEffect(() => {
-    fetchPlayersPage(0, 0, 0)
-      .then(data => {
-        setPlayerStats(data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetchPlayersPage(0, 0, 0)
+  //     .then(data => {
+  //       setPlayerStats(data);
+  //     })
+  //     .catch(error => {
+  //       console.error(error);
+  //     });
+  // }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,16 +61,16 @@ const YokiSum: React.FC = () => {
   }, [partnerNfts]);
 
   const cardData = [
-    {
-      title: 'Total Users/Players',
-      value: `${playerStats.users}/${playerStats.players}`
-    },
+    // {
+    //   title: 'Total Users/Players',
+    //   value: `${playerStats.users}/${playerStats.players}`
+    // },
     { title: 'Live Yoki', value: yokiCnt },
     { title: 'Oma in circulation', value: omaCnt },
     { title: 'Project NFTs', value: partnerNfts },
-    {
-      title: 'TxOMA/bigTx/numTx', value: `${omaStats.totalOMAs}/${omaStats.totalTxOver30}/${omaStats.totalResults}`
-    },
+    // {
+    //   title: 'TxOMA/bigTx/numTx', value: `${omaStats.totalOMAs}/${omaStats.totalTxOver30}/${omaStats.totalResults}`
+    // },
   ];
 
   return (

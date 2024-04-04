@@ -16,8 +16,8 @@ const fetchPage = async (skip) => {
                         skip: $skip,
                         where: {
                             and: [
-                                {from_not: "0x0000000000000000000000000000000000000000"}, 
-                                {to_not: "0x0000000000000000000000000000000000000000"}, 
+                                {from_not: "0x0000000000000000000000000000000000000000"},
+                                {to_not: "0x0000000000000000000000000000000000000000"},
                                 {Yokis_id: "0"}
                             ]
                         }
@@ -27,7 +27,7 @@ const fetchPage = async (skip) => {
                 }
         `,
         variables: {
-            first: 100,
+            first: 1000,
             skip: skip
         }
     });
@@ -42,7 +42,7 @@ const fetchPage = async (skip) => {
     totalResults += values.length;
 
     if (values.length > 0) {
-        await fetchPage(skip + 100);
+        await fetchPage(skip + 1000);
     }
 };
 

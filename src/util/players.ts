@@ -17,7 +17,7 @@ export const fetchPlayersPage = async (skip: number, users: number, players: num
       }
       `,
       variables: {
-        first: 100,
+        first: 1000,
         skip: skip
       }
     });
@@ -50,5 +50,5 @@ export const fetchPlayersPage = async (skip: number, users: number, players: num
   });
 
   await new Promise(resolve => setTimeout(resolve, 100));
-  return fetchPlayersPage(skip + 100, users, players);
+  return fetchPlayersPage(skip + 1000, users, players);
 };

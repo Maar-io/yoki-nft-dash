@@ -1,4 +1,54 @@
+
 [
+  {
+    "name": "MAZDA",
+    "nftimage": "mazda.png",
+    "supply": 22222,
+    "price": 0.003,
+    "contract": "0x8Ade4c707630d2F3aB0e36cde5c81dA8F56fE0b6",
+    "slug": "countryside?machine=mazda",
+    "totalSupply": 0,
+    "team": "mooon"
+  },
+  {
+    "name": "HIS",
+    "nftimage": "his.webp",
+    "supply": 30000,
+    "price": 0,
+    "contract": "0x35e9f0E783140dad67e2A3502362805c7E65Ed69",
+    "slug": "train?machine=his",
+    "totalSupply": 0,
+    "team": "vTuber"
+  },  {
+    "name": "Very Long Swap",
+    "nftimage": "vls.png",
+    "supply": 30000,
+    "price": 0,
+    "contract": "0x3fA0117f6d4b6945668B4cAA75d91Ff1bC6C7c2f",
+    "slug": "train?machine=vls",
+    "totalSupply": 0,
+    "team": "VLS"
+  },
+  {
+    "name": "L2X",
+    "nftimage": "l2x.webp",
+    "supply": 110000,
+    "price": 0,
+    "contract": "0xc7E252697c7F4c006d1741Dca87306EE14818397",
+    "slug": "train?machine=l2x",
+    "totalSupply": 0,
+    "team": "L2X"
+  },
+    {
+    "name": "Quickswap",
+    "nftimage": "qs.webp",
+    "supply": 100000,
+    "price": 0.0014,
+    "contract": "0x95F80fF50BF9e579a5C666934d3a7498d64190Af",
+    "slug": "countryside?machine=quickswap",
+    "totalSupply": 0,
+    "team": "Quickswap"
+  },
   {
     "name": "Gotta Gacha Ball",
     "nftimage": "nft_trader.webp",
@@ -146,7 +196,7 @@
     "price": 0,
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
-    "totalSupply": 3424,
+    "totalSupply": 4741,
     "team": "BeyondClub"
   }
 ]
