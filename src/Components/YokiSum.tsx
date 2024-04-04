@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { CardsProps, OmaStats, PlayerStats } from '../util/types';
+// import { OmaStats, PlayerStats } from '../util/types';
 import { yokiAddress, RPC } from '../util/const';
 import { ethers } from 'ethers';
 import contractABI from '../yoki-abi.json';
 import Cards from './Cards';
 import PartnerNftsContext from './PartnerNftsContext';
-import { fetchOmaPage } from '../util/oma';
-import { fetchPlayersPage } from '../util/players';
+// import { fetchOmaPage } from '../util/oma';
+// import { fetchPlayersPage } from '../util/players';
 
 const provider = new ethers.providers.JsonRpcProvider(RPC);
 
@@ -14,12 +14,12 @@ const YokiSum: React.FC = () => {
   const [yokiCnt, setYokiCnt] = useState<number>(0);
   const [omaCnt, setOmaCnt] = useState<number>(0);
   const { partnerNfts } = React.useContext(PartnerNftsContext);
-  const [omaStats, setOmaStats] = useState<OmaStats>({
-    totalOMAs: 0,
-    totalTxOver30: 0,
-    totalResults: 0
-  });
-  const [playerStats, setPlayerStats] = useState<PlayerStats>({ users: 0, players: 0 }); // new state variable
+  // const [omaStats, setOmaStats] = useState<OmaStats>({
+  //   totalOMAs: 0,
+  //   totalTxOver30: 0,
+  //   totalResults: 0
+  // });
+  // const [playerStats, setPlayerStats] = useState<PlayerStats>({ users: 0, players: 0 }); // new state variable
 
 
   // useEffect(() => {

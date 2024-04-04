@@ -1,6 +1,17 @@
 
 [
   {
+    "name": "XO",
+    "nftimage": "xo.webp",
+    "supply": 99999999,
+    "price": 0,
+    "contract": "0x9aa6ea7eb759d702026125f2d947b04b6183d28b",
+    "slug": "countryside?machine=xo",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "xo"
+  },
+  {
     "name": "MAZDA",
     "nftimage": "mazda.png",
     "supply": 22222,
