@@ -1,5 +1,48 @@
-
 [
+  {
+    "name": "BattleFly",
+    "nftimage": "battlefly.webp",
+    "supply": 999999,
+    "price": 0.0034,
+    "contract": "0x872bAD41CFc8BA731f811fEa8B2d0b9fd6369585",
+    "slug": "countryside?machine=battlefly",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Battlefly"
+  },
+  {
+    "name": "WLF",
+    "nftimage": "wlf.webp",
+    "supply": 40000,
+    "price": 0,
+    "contract": "0xA35B1c520309648819C213D8A7cAAD0Da0Dd214D",
+    "slug": "countryside?machine=wlf",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "WLF"
+  },
+  {
+    "name": "Yooldo",
+    "nftimage": "yooldo.webp",
+    "supply": 999999,
+    "price": 0.0001,
+    "contract": "0xC72B9d4C9900f0Ce57565fC1a2180E5c01fc9F1A",
+    "slug": "countryside?machine=yooldo",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Yooldo"
+  },
+  {
+    "name": "Arthswap",
+    "nftimage": "arthswap.webp",
+    "supply": 100000,
+    "price": 0,
+    "contract": "0xCa4c77f4B5Ca90948d5B26671AdC3aB5Cdbac55a",
+    "slug": "countryside?machine=xo",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Arthswap"
+  },
   {
     "name": "XO",
     "nftimage": "xo.webp",
@@ -43,7 +86,8 @@
     "totalSupply": 0,
     "totalSupply2": false,
     "team": "vTuber"
-  },  {
+  },
+  {
     "name": "Very Long Swap",
     "nftimage": "vls.png",
     "supply": 30000,
@@ -65,7 +109,7 @@
     "totalSupply2": false,
     "team": "L2X"
   },
-    {
+  {
     "name": "Quickswap",
     "nftimage": "qs.webp",
     "supply": 100000,
