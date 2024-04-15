@@ -1,5 +1,49 @@
 [
   {
+    "name": "RMRK",
+    "nftimage": "rmrk.webp",
+    "supply": 100000,
+    "price": 0.0005,
+    "contract": "0x7Bd4fDCcACb2D084bc68b750f00ffC012fB2b6A2",
+    "slug": "countryside?machine=rmrk",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "RMRK"
+  },
+  {
+    "name": "Weirdo Ghost Gang",
+    "nftimage": "wgg.webp",
+    "supply": 15000,
+    "price": 0,
+    "contract": "0x5bb843d20C20A3a5F13f35C745F8210bec05b530",
+    "slug": "countryside?machine=wgg",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "WGG"
+  },
+  {
+    "name": "KamuiVerse",
+    "nftimage": "kamuiverse.webp",
+    "supply": 1000,
+    "price": 0.001,
+    "contract": "0xcCb3F56AA3e998ee6A662EA822DCd3238C002933",
+    "slug": "countryside?machine=KamuiVerse",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "KamuiVerse"
+  },
+  {
+    "name": "Yuliverse",
+    "nftimage": "yuliverse.webp",
+    "supply": 0,
+    "price": 0,
+    "contract": "0x959B1c47A81C31D80a0F28dB05B0f1Adc063C148",
+    "slug": "countryside?machine=yuliverse",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Yuliverse"
+  },
+  {
     "name": "BattleFly",
     "nftimage": "battlefly.webp",
     "supply": 999999,
