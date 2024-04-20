@@ -1,5 +1,27 @@
 [
   {
+    "name": "NEET",
+    "nftimage": "neet.webp",
+    "supply": 10000,
+    "price": 0.0095,
+    "contract": "0xAc0aDabf361821214f9Bb8a2B5dC7FB2BDfBc337",
+    "slug": "countryside?machine=neet",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Neet"
+  },
+  {
+    "name": "SkyLab",
+    "nftimage": "skylab.webp",
+    "supply": 10000,
+    "price": 0.01,
+    "contract": "0x4eFC1FbED6598551c30A830758244eCC9706dFb4",
+    "slug": "countryside?machine=skylab",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Nikhil"
+  },
+  {
     "name": "RMRK",
     "nftimage": "rmrk.webp",
     "supply": 100000,
