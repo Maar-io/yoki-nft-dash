@@ -1,5 +1,16 @@
 [
   {
+    "name": "Bitget Suzuki",
+    "nftimage": "suzuki.png",
+    "supply": 450,
+    "price": 0,
+    "contract": "0x721040Fa869501cfe826Abc9e40AB3cbf8178Ea0",
+    "slug": "city?machine=bitget",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Bitget"
+  },
+  {
     "name": "CASIO",
     "nftimage": "casio.webp",
     "supply": 999999,
