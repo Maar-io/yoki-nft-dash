@@ -1,5 +1,27 @@
 [
   {
+    "name": "CASIO",
+    "nftimage": "casio.webp",
+    "supply": 999999,
+    "price": 0.002,
+    "contract": "0x32898e6dc25AEB05E841eA1d37fA0eF0DdF8Ad78",
+    "slug": "city?machine=casio",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "AstarGames"
+  },
+  {
+    "name": "Trekki",
+    "nftimage": "trekki.webp",
+    "supply": 10000,
+    "price": 0.0023,
+    "contract": "0x0ebF8734Fb16E1214e920726216cB18cc6B92e9a",
+    "slug": "forest?machine=trekki",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "trekki"
+  },
+  {
     "name": "NEET",
     "nftimage": "neet.webp",
     "supply": 10000,
