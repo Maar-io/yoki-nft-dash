@@ -1,5 +1,39 @@
 [
   {
+    "name": "PBADAO",
+    "nftimage": "pbadao.webp",
+    "supply": 8888,
+    "price": 0.001,
+    "contract": "0x55F9f3426B0785d11fbF053B4FE2BB557357bBeb",
+    "slug": "countryside?machine=pbadao",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "minted": true,
+    "team": "PBADAO"
+  },
+  {
+    "name": "ERM Labs",
+    "nftimage": "erm.webp",
+    "supply": 4000,
+    "price": 0,
+    "contract": "0x28Cd74F24D63838B2f042C6f7b8387aD63478Bc9",
+    "slug": "countryside?machine=erm",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "ERM"
+  },
+  {
+    "name": "mintpad",
+    "nftimage": "mintpad.webp",
+    "supply": 100000,
+    "price": 0.00034,
+    "contract": "0x5A77B45B6f5309b07110fe98E25A178eEe7516c1",
+    "slug": "countryside?machine=mintpad",
+    "totalSupply": 0,
+    "totalSupply2": false,
+    "team": "Mintpad"
+  },
+  {
     "name": "Bitget Suzuki",
     "nftimage": "suzuki.png",
     "supply": 450,
@@ -380,7 +414,7 @@
     "price": 0,
     "contract": "0xF83E63aa96B1fE8d3CbdF419b22bFb3CCcF99eBC",
     "slug": "train?machine=jr-kyushu-813",
-    "totalSupply": 4741,
+    "totalSupply": 6536,
     "totalSupply2": false,
     "team": "BeyondClub"
   }
