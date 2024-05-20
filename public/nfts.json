@@ -1,10 +1,10 @@
 [
   {
     "name": "PBADAO",
-    "nftimage": "pbadao.webp",
+    "nftimage": "pbadao.png",
     "supply": 8888,
-    "price": 0.001,
-    "contract": "0x55F9f3426B0785d11fbF053B4FE2BB557357bBeb",
+    "price": 0.0008,
+    "contract": "0x12C8000C0D305378970c7FCF081285Ffb4F634f3",
     "slug": "countryside?machine=pbadao",
     "totalSupply": 0,
     "totalSupply2": false,
@@ -16,7 +16,7 @@
     "nftimage": "erm.webp",
     "supply": 4000,
     "price": 0,
-    "contract": "0x28Cd74F24D63838B2f042C6f7b8387aD63478Bc9",
+    "contract": "0x79899Ba7768aa1ABed63e8de7fF1349B3Ea883cc",
     "slug": "countryside?machine=erm",
     "totalSupply": 0,
     "totalSupply2": false,
