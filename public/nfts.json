@@ -1,11 +1,11 @@
 [
   {
-    "name": "ON1 FORCE",
+    "name": "0N1 FORCE",
     "nftimage": "on1.webp",
     "supply": 777,
-    "price": 0.02777,
+    "price": 0.01777,
     "contract": "0xE14cdbf9363bBA009Bc3B50ADF67927509C04AF1",
-    "slug": "countryside?machine=on1",
+    "slug": "train?machine=on1force",
     "totalSupply": 0,
     "totalSupply2": false,
     "team": "BeyondClub"
